@@ -156,5 +156,8 @@ Si tienes dudas, escribe al Tech Lead del squad.
 
 Si la duda es sobre el proyecto en general, escribe al Chapter Lead.
 
+## Comentario
+- Como estudiante, esto me da claridad de cómo empezar sin miedo a romper nada en `main`; el PR es vital para obtener retroalimentación, eso enseña disciplina de equipo real desde el día uno.
+
 
 <img width="1112" height="704" alt="image" src="https://github.com/user-attachments/assets/a1f726e9-6eb0-4a2a-9fac-a0be1839fc91" />
