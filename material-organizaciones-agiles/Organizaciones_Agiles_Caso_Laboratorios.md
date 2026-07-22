@@ -161,9 +161,17 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 - Rodrigo: Instalar un cluster o configurar Keycloak es "complicado"; definir niveles de aprobación de imágenes o repartir horarios es "complejo".
 ```
 
+```diff
+- Joaquin: Procesos como configurar una maquina virtual e instalar software específico para poder empezar a trabajar.
+```
+
 3. Si el proyecto creciera a 10 squads, ¿en qué punto convendría dividir el Tribe "Platform Lab" en dos tribes independientes?
 ```diff
 - Rodrigo: Cuando los squads dejen de compartir una misma visión de producto, por ejemplo si unos atienden lo académico y otros a clientes empresariales.
+```
+
+```diff
+- Joaquin: Cuando los squads tengan problemas de coordinación y sea necesarios dividirlos para que trabajen de mejor manera.
 ```
 
 4. ¿Qué riesgos organizacionales aparecen si el rol de Process Owner dentro de cada squad no tiene tiempo protegido para documentar procesos?
@@ -171,7 +179,15 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 - Rodrigo: La documentación queda siempre postergada, el conocimiento se concentra en una sola persona y se pierde trazabilidad si esa persona se va.
 ```
 
+```diff
+- Joaquin: Se necesita ese tiempo para poder documentar de forma correcta el proyecto y así otros desarrolladores puedan seguir escalando el proyecto sin problemas.
+```
+
 5. ¿Cómo mediría usted, con indicadores concretos, si el modelo está logrando el equilibrio entre autonomía y alineación?
 ```diff
 - Rodrigo: Autonomía: % de decisiones que el squad resuelve sin aprobación externa. Alineación: cantidad de conflictos o reprocesos entre squads.
+```
+
+```diff
+- Joaquin: Tomaria en cuenta los resultados de los proyectos sin aprobación y para la alineación mediria el cumplimiento de los objetivos de cada squad y el resultado de cada integrante del squad.
 ```
