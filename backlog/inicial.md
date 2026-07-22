@@ -70,6 +70,8 @@
 - [ ] Interfaz de reserva de recursos.
 - [ ] Visualización de imágenes disponibles.
 
+> 🔴 **[Comentario]:** En contra de lo escueto de esta épica en comparación con las demás: no tiene prioridad, descripción ni formato de historia. Además, no contempla un panel de administración centralizado para el Administrador, solo cubre las vistas de estudiante/docente.
+
 ---
 
 ### Épica 6: Arquitectura e Infraestructura Base
@@ -77,6 +79,8 @@
 - [ ] Configuración de Proxmox + Kubernetes.
 - [ ] Integración GitLab + Harbor.
 - [ ] Configuración híbrida (local + nube).
+
+> 🔴 **[Comentario - Persona C]:** A favor del contenido técnico, coincide con lo que se necesita (Proxmox, K3s/Talos, GitLab, Harbor). En contra de la falta total de formato de historia de usuario.
 
 ---
 
