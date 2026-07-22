@@ -21,10 +21,14 @@
 - [ ] Como **Jefe de Laboratorio**, quiero dashboards que muestren el estado de uso de los recursos físicos y virtuales.
 - [ ] Como **Equipo**, quiero una matriz RACI clara para todos los procesos críticos.
 
+<span style="color:red">**[Comentario]:** A favor de esta épica como base fundacional. Sin embargo, varias historias (2ª, 3ª, 4ª, 5ª, 6ª) no siguen el formato completo Como/quiero/**para**, les falta el beneficio explícito. Se puede completar sin perder la intención original.</span>
+
 **Criterios de Aceptación:**
 - Documentación oficial de procesos (en Markdown y versión PDF).
 - Matriz RACI implementada.
 - Flujos automatizados donde sea posible.
+
+<span style="color:red">**[Comentario]:** En contra de mezclar aquí procesos internos del equipo (matriz RACI, roles del squad) con procesos que usará el usuario final (reserva de equipos, solicitud de imágenes). Son dos audiencias distintas y podría dividirse en dos épicas o dejar la RACI fuera del backlog de producto.</span
 
 ---
 
