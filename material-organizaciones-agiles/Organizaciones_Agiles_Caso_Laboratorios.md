@@ -157,13 +157,21 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 ## 9. Preguntas de discusión
 
 1. ¿Qué otros procesos del laboratorio caen en el dominio "complicado" (procedimiento claro) frente a los que caen en el dominio "complejo" (requieren experimentación)?
-- <span style="color:red">Rodrigo: Instalar un cluster o configurar Keycloak es "complicado"; definir niveles de aprobación de imágenes o repartir horarios es "complejo".</span>
+```diff
+- Rodrigo: Instalar un cluster o configurar Keycloak es "complicado"; definir niveles de aprobación de imágenes o repartir horarios es "complejo".
+```
 
 3. Si el proyecto creciera a 10 squads, ¿en qué punto convendría dividir el Tribe "Platform Lab" en dos tribes independientes?
-- Rodrigo: Cuando los squads dejen de compartir una misma visión de producto, por ejemplo si unos atienden lo académico y otros a clientes empresariales.
+```diff
++ Rodrigo: Cuando los squads dejen de compartir una misma visión de producto, por ejemplo si unos atienden lo académico y otros a clientes empresariales.
+```
 
 4. ¿Qué riesgos organizacionales aparecen si el rol de Process Owner dentro de cada squad no tiene tiempo protegido para documentar procesos?
-- Rodrigo: La documentación queda siempre postergada, el conocimiento se concentra en una sola persona y se pierde trazabilidad si esa persona se va.
+```diff
++ Rodrigo: La documentación queda siempre postergada, el conocimiento se concentra en una sola persona y se pierde trazabilidad si esa persona se va.
+```
 
 5. ¿Cómo mediría usted, con indicadores concretos, si el modelo está logrando el equilibrio entre autonomía y alineación?
-- Rodrigo: Autonomía: % de decisiones que el squad resuelve sin aprobación externa. Alineación: cantidad de conflictos o reprocesos entre squads.
+```diff
++ Rodrigo: Autonomía: % de decisiones que el squad resuelve sin aprobación externa. Alineación: cantidad de conflictos o reprocesos entre squads.
+```
