@@ -42,3 +42,8 @@ El escaneo automático (Trivy, mencionado en el README) cubre la parte técnica,
 ## Por qué esto importa para el proyecto en particular
 
 La plataforma tiene dos versiones: académica y empresarial. La gobernanza es lo que permite que ambas convivan con reglas distintas de exigencia (por ejemplo, la empresarial puede requerir aprobación de Seguridad además de la técnica) sin duplicar el sistema, solo ajustando el nivel de control según el contexto.
+
+## Comentarios del grupo
+```diff
+- Rodrigo: Creo que la trazabilidad es lo más importante, sin saber quién aprobó qué imagen y cuándo, cualquier falla en un examen es difícil de auditar, muy importante para buscar al responsable y tener gobierno sobre los procesos dentro de nuestro proyecto.
+```
