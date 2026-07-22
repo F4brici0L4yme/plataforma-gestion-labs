@@ -163,15 +163,15 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 
 3. Si el proyecto creciera a 10 squads, ¿en qué punto convendría dividir el Tribe "Platform Lab" en dos tribes independientes?
 ```diff
-+ Rodrigo: Cuando los squads dejen de compartir una misma visión de producto, por ejemplo si unos atienden lo académico y otros a clientes empresariales.
+- Rodrigo: Cuando los squads dejen de compartir una misma visión de producto, por ejemplo si unos atienden lo académico y otros a clientes empresariales.
 ```
 
 4. ¿Qué riesgos organizacionales aparecen si el rol de Process Owner dentro de cada squad no tiene tiempo protegido para documentar procesos?
 ```diff
-+ Rodrigo: La documentación queda siempre postergada, el conocimiento se concentra en una sola persona y se pierde trazabilidad si esa persona se va.
+- Rodrigo: La documentación queda siempre postergada, el conocimiento se concentra en una sola persona y se pierde trazabilidad si esa persona se va.
 ```
 
 5. ¿Cómo mediría usted, con indicadores concretos, si el modelo está logrando el equilibrio entre autonomía y alineación?
 ```diff
-+ Rodrigo: Autonomía: % de decisiones que el squad resuelve sin aprobación externa. Alineación: cantidad de conflictos o reprocesos entre squads.
+- Rodrigo: Autonomía: % de decisiones que el squad resuelve sin aprobación externa. Alineación: cantidad de conflictos o reprocesos entre squads.
 ```
