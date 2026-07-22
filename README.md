@@ -130,6 +130,7 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 - Proyecto 1: 3er-4to semestre, promedio mínimo 14, portafolio GitHub.
 - Proyecto 2: Haber participado en Proyecto 1 (preferible), conocimientos avanzados en Kubernetes, GitOps y Seguridad.
 
+<span style="color:red">**[Comentario - Sergio Estrada]:** A favor del modelo híbrido: resuelve directamente el problema central del proyecto (que el estudiante pueda llevarse la misma imagen a su PC), porque Docker/Podman corre igual on-premise que en la nube. En contra de que no se especifique **qué componentes corren on-premise y cuáles en la nube** — la propuesta dice "híbrido" pero no dibuja esa separación. Ya armé los diagramas C4 de Contexto y Contenedores (ver `/docs/architecture`) que cubren el "qué" del sistema, pero falta un diagrama de Despliegue que muestre el "dónde" corre cada pieza. También valdría justificar por qué K3s/Talos y no un Kubernetes completo, para que quede claro que es una decisión y no un detalle suelto.</span>
 ---
 
 ## Arquitectura Técnica Propuesta
