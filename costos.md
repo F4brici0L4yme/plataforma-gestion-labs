@@ -10,8 +10,8 @@ Nota importante: las secciones marcadas como `[pendiente]` dependen de datos que
 
 | Componente | Función en el proyecto | Proveedor de referencia | Costo estimado | Fuente |
 |---|---|---|---|---|
-| VPS básico (2 vCPU, 4-8 GB RAM) | Nodo de control K3s / pruebas | Hetzner CX23 | desde 5,49 EUR/mes (~6 USD) | Hetzner Cloud, precios julio 2026 |
-| VPS intermedio (dedicado, 2 vCPU, 8 GB RAM) | Nodo worker adicional si se necesita más carga | Hetzner CCX13 | ~15 EUR/mes (~16 USD) | Hetzner Cloud, precios julio 2026 |
+| VPS básico (2 vCPU, 4-8 GB RAM) | Nodo de control K3s / pruebas | Digital Ocean | 32 USD | https://cloud.digitalocean.com/droplets/ |
+| VPS intermedio (dedicado, 2 vCPU, 8 GB RAM) | Nodo worker adicional si se necesita más carga | Digital Ocean | 76 USD | https://cloud.digitalocean.com/droplets/ |
 | Servidor on-prem (Proxmox) | Host principal del laboratorio (GitLab, Harbor, Keycloak, PostgreSQL, MinIO) | Hardware propio de la universidad | 0 USD si ya existe el equipo; en caso contrario, costo de adquisición aparte (fuera de este presupuesto mensual) | Asumido, pendiente de confirmar con Persona B |
 | Dominio (.com) | URL pública de la plataforma | Namecheap | ~7-11 USD primer año, ~15-18 USD renovación anual | Namecheap, precios julio 2026 |
 | Certificado SSL | HTTPS para todos los servicios | Let's Encrypt | 0 USD (gratuito y automatizable) | Estándar de la industria |
@@ -81,3 +81,8 @@ Los precios de VPS son volátiles: varios proveedores subieron precios durante 2
 Valores en USD salvo que se indique lo contrario. Conversión EUR-USD aproximada al momento de la consulta.
 
 Este documento es una estimación con fines académicos, no una cotización formal de proveedores.
+
+  <img width="631" height="652" alt="image" src="https://github.com/user-attachments/assets/d95d306c-db26-4342-a9a9-dcbb8059051d" />
+
+
+m<img width="664" height="659" alt="image" src="https://github.com/user-attachments/assets/7640419f-347c-4327-86ca-423a61427b1c" />
