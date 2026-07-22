@@ -39,6 +39,8 @@
 - [ ] Asignación de usuarios a proyectos/cursos.
 - [ ] RBAC avanzado (Roles Based Access Control).
 
+> 🔴 **[Comentario]:** En contra del formato actual: ninguno de estos 4 puntos es una historia de usuario, son features sueltas sin rol ni beneficio. Además falta prioridad y descripción, que sí tiene la Épica 1. También noto que no hay ninguna historia sobre distinguir el modo Académico vs. Empresarial.
+
 ---
 
 ### Épica 3: Catálogo de Imágenes de Contenedores
@@ -48,6 +50,8 @@
 - [ ] Interfaz para solicitar y aprobar imágenes.
 - [ ] Descarga segura de imágenes para uso local (estudiantes).
 
+> 🔴 **[Comentario]:** A favor del contenido (cubre bien el flujo: solicitud → escaneo → firma → descarga). En contra de mantener escaneo y firma como un ítem más de esta épica: dado que se define un rol de Security Engineer y estándares de seguridad superiores para la versión empresarial, creo que merece ser su propia épica en vez de quedar diluido aquí.
+
 ---
 
 ### Épica 4: Gestión de Hardware e Inventario
@@ -55,6 +59,8 @@
 - [ ] Inventario automatizado de computadoras, servidores e impresoras.
 - [ ] Sistema de reserva de equipos.
 - [ ] Monitoreo del estado de los laboratorios.
+
+> 🔴 **[Comentario]:** A favor del alcance. En contra de que falte una historia sobre gestión de incidencias/mantenimiento correctivo, consecuencia lógica de "monitorear el estado de los laboratorios": si detectas una falla, debe quedar registrada en algún lado.
 
 ---
 
