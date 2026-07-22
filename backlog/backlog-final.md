@@ -1,4 +1,4 @@
-# Backlog Inicial del Proyecto
+# Backlog Final del Proyecto
 
 **Proyecto:** Plataforma Híbrida de Gestión de Laboratorios de Computación
 **Estado:** Versión Completa (Priorizado)
