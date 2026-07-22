@@ -160,6 +160,9 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 
 Esto garantiza **estandarización y trazabilidad completa**.
 
+*(Para más detalles sobre las políticas de trazabilidad y licencias, ver el documento complementario de [Gobernanza de Imágenes Docker, Software y Licencias](gobernanza-imagenes-docker.md)).*
+
+
 ---
 
 ## Fases de Implementación
