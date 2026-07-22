@@ -29,27 +29,29 @@ Nota importante: las secciones marcadas como `[pendiente]` dependen de datos que
 
 ## 2. Costos de horas-persona
 
-`[pendiente de Persona D — plan de dedicación semanal por squad]`
+Los datos de dedicación provienen de la planificación detallada de la Persona D en `docs/plan-dedicacion.md`. Se calcula en base a **16 semanas** de duración para la Fase 1.
 
 | Squad | Horas/semana | Semanas (Fase 1) | Horas totales | Costo referencial/hora | Subtotal |
 |---|---|---|---|---|---|
-| Core Platform | | | | | |
-| Image & Container Management | | | | | |
-| Hardware & Lab Operations | | | | | |
-| Frontend & User Experience | | | | | |
+| Core Platform | 75 | 16 | 1,200 | 5 USD | 6,000 USD |
+| Image & Container Management | 75 | 16 | 1,200 | 5 USD | 6,000 USD |
+| Hardware & Lab Operations | 75 | 16 | 1,200 | 5 USD | 6,000 USD |
+| Frontend & User Experience | 75 | 16 | 1,200 | 5 USD | 6,000 USD |
+| **Total de Esfuerzo (Fase 1)** | **300** | **16** | **4,800** | **5 USD** | **24,000 USD** |
 
-Nota: para un proyecto académico, el costo por hora puede dejarse en 0 (trabajo estudiantil) o usarse un valor referencial de mercado junior (ej. 4-8 USD/hora) solo para dimensionar el "valor" del esfuerzo si el profesor lo pide.
+*Nota:* Para este proyecto de carácter estrictamente académico, el costo real por hora de los estudiantes es de **0 USD (trabajo de curso)**. No obstante, se mantiene el valor referencial de mercado junior de **5 USD/hora** con el fin de dimensionar y valorizar adecuadamente el esfuerzo y costo humano si el proyecto fuera contratado externamente.
 
 ---
 
 ## 3. Costos de infraestructura física (si no existe hardware previo)
 
-`[pendiente de Persona B — diagrama de arquitectura C4, para saber cuántos nodos y qué capacidad se necesita]`
+*Nota de arquitectura (basado en diagramas C4 de Persona B):* Para albergar los servicios locales descritos (Proxmox VE que aloja GitLab, Harbor, Keycloak, PostgreSQL, MinIO y nodos de K3s/Talos), se propone la siguiente infraestructura física de referencia en caso de no contar con equipos disponibles en los laboratorios de la universidad.
 
-| Ítem | Referencia de mercado | Notas |
-|---|---|---|
-| Servidor físico para Proxmox | Depende de specs, referencia de mercado desde ~500-1500 USD el equipo | Costo único, no mensual |
-| Switch/red de laboratorio | Ya existente en la mayoría de universidades | 0 USD asumido |
+| Ítem | Especificación Sugerida | Referencia de mercado | Notas |
+|---|---|---|---|
+| Servidor físico para Proxmox | Min. 8 Cores / 16 Hilos, 64 GB RAM DDR4, 2TB SSD NVMe | ~1,200 USD | Costo de adquisición único (CAPEX) |
+| Switch Administrable de Red | Gigabit Ethernet, 24 puertos | ~150 USD | Costo único |
+| **Total Hardware Físico** | | **~1,350 USD** | Solo si la universidad no tiene hardware libre |
 
 ---
 
@@ -61,10 +63,12 @@ Nota: para un proyecto académico, el costo por hora puede dejarse en 0 (trabajo
 | Infraestructura mensual (con respaldo en nube) | 20-40 USD/mes |
 | Dominio (anual) | 7-18 USD/año |
 | Licencias de software | 0 USD (todo open source) |
-| Horas-persona | `[pendiente]` |
-| Hardware físico (si aplica, costo único) | `[pendiente]` |
+| Horas-persona (Académico) | **0 USD** |
+| Horas-persona (Valor referencial de esfuerzo) | **24,000 USD** |
+| Hardware físico (si no existe previo, costo único) | **1,350 USD** |
 
-**Total estimado Fase 1 (sin contar hardware físico ni horas-persona):** aprox. 30-60 USD para los primeros 1-2 meses, considerando dominio + margen de nube de respaldo.
+**Total estimado Fase 1 (enfoque académico con hardware existente):** aprox. 30-60 USD para los primeros 1-2 meses (dominio + margen de nube de respaldo).
+
 
 ---
 
