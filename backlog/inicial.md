@@ -100,6 +100,8 @@
 - Automatizaciones avanzadas
 - Integración con SIEM / Compliance (Fase 2)
 
+> 🔴 **[Comentario]:** En contra de que la Épica 6 (Infraestructura) no esté en "Must Have": sin Proxmox/Kubernetes/GitLab/Harbor desplegados, ninguna otra épica puede funcionar. Creo que debería moverse a "Must Have" junto con las demás épicas fundacionales.
+
 ---
 
 ## Pregunta Estratégica: ¿Cómo estructurar la "Organización y Procesos"?
@@ -133,6 +135,8 @@
 - Establecer indicadores de uso del laboratorio.
 - Asegurar alineación entre la parte técnica y los procesos operativos.
 
+> 🔴 **[Comentario]:** A favor de la propuesta (evita silos y sobrecarga de squads).
+
 ---
 
 ## Próximos Pasos
@@ -141,5 +145,7 @@
 2. Formar el Chapter de Organización.
 3. Iniciar refinamiento del Backlog con los squads.
 4. Definir Definition of Done (DoD) común.
+
+> 🔴 **[Comentario]:** A favor de los 4 pasos como plan de acción.
 
 ---
