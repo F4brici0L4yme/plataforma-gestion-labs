@@ -46,4 +46,5 @@ La plataforma tiene dos versiones: académica y empresarial. La gobernanza es lo
 ## Comentarios del grupo
 ```diff
 - Rodrigo: Creo que la trazabilidad es lo más importante, sin saber quién aprobó qué imagen y cuándo, cualquier falla en un examen es difícil de auditar, muy importante para buscar al responsable y tener gobierno sobre los procesos dentro de nuestro proyecto.
+- Sergio: De acuerdo con lo de Rodrigo, pero yo le sumaría el punto de seguridad y vigencia. En los diagramas de arquitectura que armé, Trivy aparece escaneando la imagen antes de publicarla, pero ese escaneo es solo al momento de subirla. Si la gobernanza no define cada cuánto se vuelve a escanear una imagen que ya está publicada, esa imagen puede pasar de segura a vulnerable con el tiempo y nadie se entera hasta que ya sea tarde. Para mí eso es tan importante como saber quién aprobó la imagen, porque de nada sirve saber quién aprobó si después nadie revisa que siga siendo segura.
 ```
