@@ -112,6 +112,7 @@ Se ejecutarán dos proyectos secuenciales:
 
 Los **Chapters** serán liderados por profesores con mínimo 5 años de experiencia industrial.
 
+<span style="color:red">**[Comentario - Joaquin Quispe]:** A favor de requisitos mínimos para los profesionales encargados de la elaboración de la plataforma híbrida, especialmente al pasar desde el proyecto 1 al proyecto 2 ya que al querer llevar la plataforma a un nivel empresarial se necesita de personal con vasta experiencia técnicaen su respectivo rol para poder desarrollar el proyecto  a niverl universitario y posteriormente escalarlo a un nivel empresaria, en donde se tienen que tomar en cuenta una mayor cantidad de conceptos. Para respaldar esto, se elaboro el documento `roles-habilidades.md`, que detalla las habilidades técnicas, herramientas y certificaciones sugeridas para el rol en ambas fases del proyecto.</span>
 ---
 
 ## Requisitos de Conocimientos y Habilidades
@@ -127,6 +128,7 @@ Los **Chapters** serán liderados por profesores con mínimo 5 años de experien
 | UX/UI Designer              | Intermedio            | 1-2 semestres       | Avanzado               | 2-3 semestres       |
 
 **Requisitos Generales:**
+
 - Proyecto 1: 3er-4to semestre, promedio mínimo 14, portafolio GitHub.
 - Proyecto 2: Haber participado en Proyecto 1 (preferible), conocimientos avanzados en Kubernetes, GitOps y Seguridad.
 
