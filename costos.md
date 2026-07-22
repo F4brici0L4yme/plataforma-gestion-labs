@@ -13,8 +13,8 @@ Nota importante: las secciones marcadas como `[pendiente]` dependen de datos que
 | VPS básico (2 vCPU, 4-8 GB RAM) | Nodo de control K3s / pruebas | Digital Ocean | 32 USD | https://cloud.digitalocean.com/droplets/ |
 | VPS intermedio (dedicado, 2 vCPU, 8 GB RAM) | Nodo worker adicional si se necesita más carga | Digital Ocean | 76 USD | https://cloud.digitalocean.com/droplets/ |
 | Servidor on-prem (Proxmox) | Host principal del laboratorio (GitLab, Harbor, Keycloak, PostgreSQL, MinIO) | Hardware propio de la universidad | 0 USD si ya existe el equipo; en caso contrario, costo de adquisición aparte (fuera de este presupuesto mensual) | Asumido, pendiente de confirmar con Persona B |
-| Dominio (.com) | URL pública de la plataforma | Namecheap | ~7-11 USD primer año, ~15-18 USD renovación anual | Namecheap, precios julio 2026 |
-| Certificado SSL | HTTPS para todos los servicios | Let's Encrypt | 0 USD (gratuito y automatizable) | Estándar de la industria |
+| Dominio (.com) | URL pública de la plataforma | Namecheap | 14.98 USD | Namecheap, precios julio 2026 |
+| Certificado SSL | HTTPS para todos los servicios | Let's Encrypt & Certbot | 0 USD (gratuito y automatizable) | Estándar de la industria |
 | GitLab (self-hosted, edición Community) | Repositorios y CI/CD | Open source | 0 USD | Licencia GitLab CE |
 | Harbor | Registro de imágenes de contenedores | Open source | 0 USD | Proyecto CNCF |
 | Keycloak | Gestión de identidad y accesos | Open source | 0 USD | Proyecto Red Hat / CNCF |
@@ -86,3 +86,6 @@ Este documento es una estimación con fines académicos, no una cotización form
 
 
 m<img width="664" height="659" alt="image" src="https://github.com/user-attachments/assets/7640419f-347c-4327-86ca-423a61427b1c" />
+
+
+<img width="1121" height="403" alt="image" src="https://github.com/user-attachments/assets/b044e5e6-1b53-496b-b6bf-c12f73a1091a" />
