@@ -305,21 +305,41 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que O&M, a
 ## Preguntas de discusión
 
 1. ¿Qué otros procesos del laboratorio son "complicados" (procedimiento claro) frente a los "complejos" (requieren experimentación)?
+
+```diff
+- Joaquin: Procesos como configurar una maquina virtual e instalar software específico para poder empezar a trabajar.
+```
+
 ```diff
 + Sandra: En mi opinión, la instalación inicial de sistemas operativos o la renovación de licencias comerciales son procesos complicados pero predecibles. Por el contrario, gestionar la concurrencia y la asignación dinámica de laboratorios ante imprevistos es un proceso complejo que requiere monitoreo y adaptación constante.
 ```
 
 2. Si el proyecto creciera a 10 squads, ¿en qué punto convendría dividir el Tribe "Platform Lab" en dos tribes independientes?
+
+```diff
+- Joaquin: Cuando los squads tengan problemas de coordinación y sea necesarios dividirlos para que trabajen de mejor manera.
+```
+
 ```diff
 + Sandra: Desde mi perspectiva, dividiría la tribu en el momento en que los squads se especialicen en áreas funcionales distintas (por ejemplo, dividiendo un frente puramente de infraestructura y otro de experiencia de usuario), para evitar reuniones eternas y mantener la agilidad de los equipos.
 ```
 
 3. ¿Qué riesgos aparecen si el Process Owner de cada squad no tiene tiempo protegido para documentar procesos?
+
+```diff
+- Joaquin: Se necesita ese tiempo para poder documentar de forma correcta el proyecto y así otros desarrolladores puedan seguir escalando el proyecto sin problemas.
+```
+
 ```diff
 + Sandra: Considero que el mayor riesgo es que la documentación se convierta en una tarea secundaria y desactualizada. Sin un tiempo protegido para documentar, el conocimiento se quedará en las personas y no en la organización, generando cuellos de botella al incorporar nuevos integrantes.
 ```
 
 4. ¿Cómo mediría, con indicadores concretos, si el modelo logra el equilibrio entre autonomía y alineación?
+
+```diff
+- Joaquin: Tomaria en cuenta los resultados de los proyectos sin aprobación y para la alineación mediria el cumplimiento de los objetivos de cada squad y el resultado de cada integrante del squad.
+```
+
 ```diff
 + Sandra: Yo mediría la autonomía con el porcentaje de decisiones técnicas resueltas por el propio squad sin necesidad de escalamiento. La alineación la evaluaría mediante la tasa de cumplimiento de los estándares de seguridad y licencias definidos por el chapter en Harbor.
 ```
