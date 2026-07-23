@@ -43,8 +43,12 @@ El escaneo automático (Trivy, mencionado en el README) cubre la parte técnica,
 
 La plataforma tiene dos versiones: académica y empresarial. La gobernanza es lo que permite que ambas convivan con reglas distintas de exigencia (por ejemplo, la empresarial puede requerir aprobación de Seguridad además de la técnica) sin duplicar el sistema, solo ajustando el nivel de control según el contexto.
 
+---
+
+
 ## Comentarios del grupo
 ```diff
 - Rodrigo: Creo que la trazabilidad es lo más importante, sin saber quién aprobó qué imagen y cuándo, cualquier falla en un examen es difícil de auditar, muy importante para buscar al responsable y tener gobierno sobre los procesos dentro de nuestro proyecto.
 - Sergio: De acuerdo con lo de Rodrigo, pero yo le sumaría el punto de seguridad y vigencia. En los diagramas de arquitectura que armé, Trivy aparece escaneando la imagen antes de publicarla, pero ese escaneo es solo al momento de subirla. Si la gobernanza no define cada cuánto se vuelve a escanear una imagen que ya está publicada, esa imagen puede pasar de segura a vulnerable con el tiempo y nadie se entera hasta que ya sea tarde. Para mí eso es tan importante como saber quién aprobó la imagen, porque de nada sirve saber quién aprobó si después nadie revisa que siga siendo segura.
++ Sandra: Desde mi perspectiva, la gobernanza de las imágenes y la gestión de licencias en una empresa de software es una necesidad crítica para la trazabilidad y la seguridad jurídica de la organización. Considero que no podemos dejar al azar el cumplimiento de los términos de uso ni la exposición a vulnerabilidades en producción, por lo que implementar flujos de aprobación y firma digital nos proporciona una garantía indispensable sobre cada línea de código desplegada.
 ```

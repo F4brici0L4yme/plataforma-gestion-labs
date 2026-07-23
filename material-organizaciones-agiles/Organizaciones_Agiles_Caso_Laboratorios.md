@@ -14,6 +14,10 @@ El presente material aborda un escenario distinto: el diseño organizacional par
 
 ---
 
+<span style="color:red">**[Comentario - Sandra Aliaga]:** Tras analizar esta lectura, considero que la transición de una estructura jerárquica tradicional hacia un modelo ágil basado en Spotify es un acierto rotundo para la gestión de laboratorios. Desde mi punto de vista, el valor más importante radica en cómo el modelo mantiene alineados los estándares técnicos mediante los chapters de docentes, al mismo tiempo que otorga a los squads la autonomía necesaria para avanzar sin burocracia. Esta estructura flexible no solo optimiza el uso de recursos, sino que también fomenta un aprendizaje iterativo sumamente valioso para nuestra formación profesional.</span>
+
+---
+
 ## 2. Problemas complejos: por qué la organización tradicional no basta
 
 ### 2.1 El entorno VUCA
@@ -165,6 +169,10 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 - Joaquin: Procesos como configurar una maquina virtual e instalar software específico para poder empezar a trabajar.
 ```
 
+```diff
++ Sandra: En mi opinión, la instalación inicial de sistemas operativos o la renovación de licencias comerciales son procesos complicados pero predecibles. Por el contrario, gestionar la concurrencia y la asignación dinámica de laboratorios ante imprevistos es un proceso complejo que requiere monitoreo y adaptación constante.
+```
+
 3. Si el proyecto creciera a 10 squads, ¿en qué punto convendría dividir el Tribe "Platform Lab" en dos tribes independientes?
 ```diff
 - Rodrigo: Cuando los squads dejen de compartir una misma visión de producto, por ejemplo si unos atienden lo académico y otros a clientes empresariales.
@@ -172,6 +180,10 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 
 ```diff
 - Joaquin: Cuando los squads tengan problemas de coordinación y sea necesarios dividirlos para que trabajen de mejor manera.
+```
+
+```diff
++ Sandra: Desde mi perspectiva, dividiría la tribu en el momento en que los squads se especialicen en áreas funcionales distintas (por ejemplo, dividiendo un frente puramente de infraestructura y otro de experiencia de usuario), para evitar reuniones eternas y mantener la agilidad de los equipos.
 ```
 
 4. ¿Qué riesgos organizacionales aparecen si el rol de Process Owner dentro de cada squad no tiene tiempo protegido para documentar procesos?
@@ -183,6 +195,10 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 - Joaquin: Se necesita ese tiempo para poder documentar de forma correcta el proyecto y así otros desarrolladores puedan seguir escalando el proyecto sin problemas.
 ```
 
+```diff
++ Sandra: Considero que el mayor riesgo es que la documentación se convierta en una tarea secundaria y desactualizada. Sin un tiempo protegido para documentar, el conocimiento se quedará en las personas y no en la organización, generando cuellos de botella al incorporar nuevos integrantes.
+```
+
 5. ¿Cómo mediría usted, con indicadores concretos, si el modelo está logrando el equilibrio entre autonomía y alineación?
 ```diff
 - Rodrigo: Autonomía: % de decisiones que el squad resuelve sin aprobación externa. Alineación: cantidad de conflictos o reprocesos entre squads.
@@ -190,4 +206,8 @@ El caso de la Plataforma Híbrida de Gestión de Laboratorios muestra que Organi
 
 ```diff
 - Joaquin: Tomaria en cuenta los resultados de los proyectos sin aprobación y para la alineación mediria el cumplimiento de los objetivos de cada squad y el resultado de cada integrante del squad.
+```
+
+```diff
++ Sandra: Yo mediría la autonomía con el porcentaje de decisiones técnicas resueltas por el propio squad sin necesidad de escalamiento. La alineación la evaluaría mediante la tasa de cumplimiento de los estándares de seguridad y licencias definidos por el chapter en Harbor.
 ```
